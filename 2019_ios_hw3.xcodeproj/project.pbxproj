@@ -14,6 +14,23 @@
 		5784F82122355B54002DE1F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5784F81F22355B54002DE1F8 /* LaunchScreen.storyboard */; };
 		5784F82C22355B54002DE1F8 /* _019_ios_hw3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5784F82B22355B54002DE1F8 /* _019_ios_hw3Tests.swift */; };
 		5784F83722355B54002DE1F8 /* _019_ios_hw3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5784F83622355B54002DE1F8 /* _019_ios_hw3UITests.swift */; };
+		57DE46962237E92200703BA5 /* myTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57DE46952237E92200703BA5 /* myTableViewController.swift */; };
+		57DE46992237EF3100703BA5 /* 02 Groove Shadow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46972237EF3000703BA5 /* 02 Groove Shadow.mp3 */; };
+		57DE469A2237EF3100703BA5 /* 03 Confusion Beats.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46982237EF3100703BA5 /* 03 Confusion Beats.mp3 */; };
+		57DE469C2237EF3F00703BA5 /* 01 Code Blue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE469B2237EF3F00703BA5 /* 01 Code Blue.mp3 */; };
+		57DE46A32237F03D00703BA5 /* 06 Exguisite Line.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE469D2237F03B00703BA5 /* 06 Exguisite Line.mp3 */; };
+		57DE46A42237F03D00703BA5 /* 05 Noiseless Period.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE469E2237F03C00703BA5 /* 05 Noiseless Period.mp3 */; };
+		57DE46A52237F03D00703BA5 /* 07 Profound Undulation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE469F2237F03C00703BA5 /* 07 Profound Undulation.mp3 */; };
+		57DE46A62237F03D00703BA5 /* 09 Liquid Loops.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46A02237F03D00703BA5 /* 09 Liquid Loops.mp3 */; };
+		57DE46A72237F03D00703BA5 /* 04 Cutting Volition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46A12237F03D00703BA5 /* 04 Cutting Volition.mp3 */; };
+		57DE46A82237F03D00703BA5 /* 08 Turn Over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46A22237F03D00703BA5 /* 08 Turn Over.mp3 */; };
+		57DE46AA2237F2E000703BA5 /* 10 Player.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46A92237F2E000703BA5 /* 10 Player.mp3 */; };
+		57DE46B12237F30900703BA5 /* 12 Hold On.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46AB2237F30700703BA5 /* 12 Hold On.mp3 */; };
+		57DE46B22237F30900703BA5 /* 14 Transparency.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46AC2237F30700703BA5 /* 14 Transparency.mp3 */; };
+		57DE46B32237F30900703BA5 /* 15 Future Colors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46AD2237F30800703BA5 /* 15 Future Colors.mp3 */; };
+		57DE46B42237F30900703BA5 /* 16 Blue Ambition.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46AE2237F30800703BA5 /* 16 Blue Ambition.mp3 */; };
+		57DE46B52237F30900703BA5 /* 11 Misty D.P.S..mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46AF2237F30800703BA5 /* 11 Misty D.P.S..mp3 */; };
+		57DE46B62237F30900703BA5 /* 13 Modulation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 57DE46B02237F30900703BA5 /* 13 Modulation.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +64,23 @@
 		5784F83222355B54002DE1F8 /* 2019_ios_hw3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2019_ios_hw3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5784F83622355B54002DE1F8 /* _019_ios_hw3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _019_ios_hw3UITests.swift; sourceTree = "<group>"; };
 		5784F83822355B54002DE1F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57DE46952237E92200703BA5 /* myTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewController.swift; sourceTree = "<group>"; };
+		57DE46972237EF3000703BA5 /* 02 Groove Shadow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "02 Groove Shadow.mp3"; sourceTree = "<group>"; };
+		57DE46982237EF3100703BA5 /* 03 Confusion Beats.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03 Confusion Beats.mp3"; sourceTree = "<group>"; };
+		57DE469B2237EF3F00703BA5 /* 01 Code Blue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "01 Code Blue.mp3"; sourceTree = "<group>"; };
+		57DE469D2237F03B00703BA5 /* 06 Exguisite Line.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "06 Exguisite Line.mp3"; sourceTree = "<group>"; };
+		57DE469E2237F03C00703BA5 /* 05 Noiseless Period.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "05 Noiseless Period.mp3"; sourceTree = "<group>"; };
+		57DE469F2237F03C00703BA5 /* 07 Profound Undulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "07 Profound Undulation.mp3"; sourceTree = "<group>"; };
+		57DE46A02237F03D00703BA5 /* 09 Liquid Loops.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "09 Liquid Loops.mp3"; sourceTree = "<group>"; };
+		57DE46A12237F03D00703BA5 /* 04 Cutting Volition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "04 Cutting Volition.mp3"; sourceTree = "<group>"; };
+		57DE46A22237F03D00703BA5 /* 08 Turn Over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "08 Turn Over.mp3"; sourceTree = "<group>"; };
+		57DE46A92237F2E000703BA5 /* 10 Player.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "10 Player.mp3"; sourceTree = "<group>"; };
+		57DE46AB2237F30700703BA5 /* 12 Hold On.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12 Hold On.mp3"; sourceTree = "<group>"; };
+		57DE46AC2237F30700703BA5 /* 14 Transparency.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "14 Transparency.mp3"; sourceTree = "<group>"; };
+		57DE46AD2237F30800703BA5 /* 15 Future Colors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "15 Future Colors.mp3"; sourceTree = "<group>"; };
+		57DE46AE2237F30800703BA5 /* 16 Blue Ambition.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "16 Blue Ambition.mp3"; sourceTree = "<group>"; };
+		57DE46AF2237F30800703BA5 /* 11 Misty D.P.S..mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "11 Misty D.P.S..mp3"; sourceTree = "<group>"; };
+		57DE46B02237F30900703BA5 /* 13 Modulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "13 Modulation.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +111,22 @@
 		5784F80A22355B51002DE1F8 = {
 			isa = PBXGroup;
 			children = (
+				57DE469B2237EF3F00703BA5 /* 01 Code Blue.mp3 */,
+				57DE46972237EF3000703BA5 /* 02 Groove Shadow.mp3 */,
+				57DE46982237EF3100703BA5 /* 03 Confusion Beats.mp3 */,
+				57DE46A12237F03D00703BA5 /* 04 Cutting Volition.mp3 */,
+				57DE469E2237F03C00703BA5 /* 05 Noiseless Period.mp3 */,
+				57DE469D2237F03B00703BA5 /* 06 Exguisite Line.mp3 */,
+				57DE469F2237F03C00703BA5 /* 07 Profound Undulation.mp3 */,
+				57DE46A22237F03D00703BA5 /* 08 Turn Over.mp3 */,
+				57DE46A02237F03D00703BA5 /* 09 Liquid Loops.mp3 */,
+				57DE46A92237F2E000703BA5 /* 10 Player.mp3 */,
+				57DE46AF2237F30800703BA5 /* 11 Misty D.P.S..mp3 */,
+				57DE46AB2237F30700703BA5 /* 12 Hold On.mp3 */,
+				57DE46B02237F30900703BA5 /* 13 Modulation.mp3 */,
+				57DE46AC2237F30700703BA5 /* 14 Transparency.mp3 */,
+				57DE46AD2237F30800703BA5 /* 15 Future Colors.mp3 */,
+				57DE46AE2237F30800703BA5 /* 16 Blue Ambition.mp3 */,
 				5784F81522355B51002DE1F8 /* 2019_ios_hw3 */,
 				5784F82A22355B54002DE1F8 /* 2019_ios_hw3Tests */,
 				5784F83522355B54002DE1F8 /* 2019_ios_hw3UITests */,
@@ -100,6 +150,7 @@
 				5784F81622355B51002DE1F8 /* AppDelegate.swift */,
 				5784F81822355B51002DE1F8 /* ViewController.swift */,
 				5784F81A22355B51002DE1F8 /* Main.storyboard */,
+				57DE46952237E92200703BA5 /* myTableViewController.swift */,
 				5784F81D22355B54002DE1F8 /* Assets.xcassets */,
 				5784F81F22355B54002DE1F8 /* LaunchScreen.storyboard */,
 				5784F82222355B54002DE1F8 /* Info.plist */,
@@ -229,9 +280,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57DE46AA2237F2E000703BA5 /* 10 Player.mp3 in Resources */,
+				57DE469C2237EF3F00703BA5 /* 01 Code Blue.mp3 in Resources */,
+				57DE46A72237F03D00703BA5 /* 04 Cutting Volition.mp3 in Resources */,
+				57DE46992237EF3100703BA5 /* 02 Groove Shadow.mp3 in Resources */,
+				57DE46A42237F03D00703BA5 /* 05 Noiseless Period.mp3 in Resources */,
+				57DE46B32237F30900703BA5 /* 15 Future Colors.mp3 in Resources */,
+				57DE46B52237F30900703BA5 /* 11 Misty D.P.S..mp3 in Resources */,
+				57DE46A62237F03D00703BA5 /* 09 Liquid Loops.mp3 in Resources */,
 				5784F82122355B54002DE1F8 /* LaunchScreen.storyboard in Resources */,
 				5784F81E22355B54002DE1F8 /* Assets.xcassets in Resources */,
+				57DE46B42237F30900703BA5 /* 16 Blue Ambition.mp3 in Resources */,
+				57DE46B22237F30900703BA5 /* 14 Transparency.mp3 in Resources */,
+				57DE46A52237F03D00703BA5 /* 07 Profound Undulation.mp3 in Resources */,
+				57DE46B62237F30900703BA5 /* 13 Modulation.mp3 in Resources */,
+				57DE46B12237F30900703BA5 /* 12 Hold On.mp3 in Resources */,
 				5784F81C22355B51002DE1F8 /* Main.storyboard in Resources */,
+				57DE469A2237EF3100703BA5 /* 03 Confusion Beats.mp3 in Resources */,
+				57DE46A32237F03D00703BA5 /* 06 Exguisite Line.mp3 in Resources */,
+				57DE46A82237F03D00703BA5 /* 08 Turn Over.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5784F81922355B51002DE1F8 /* ViewController.swift in Sources */,
+				57DE46962237E92200703BA5 /* myTableViewController.swift in Sources */,
 				5784F81722355B51002DE1F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
