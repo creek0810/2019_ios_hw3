@@ -112,7 +112,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5784F80A22355B51002DE1F8 = {
+		577F9C5D223A9A2C00965DF4 /* music */ = {
 			isa = PBXGroup;
 			children = (
 				57DE469B2237EF3F00703BA5 /* 01 Code Blue.mp3 */,
@@ -131,6 +131,14 @@
 				57DE46AC2237F30700703BA5 /* 14 Transparency.mp3 */,
 				57DE46AD2237F30800703BA5 /* 15 Future Colors.mp3 */,
 				57DE46AE2237F30800703BA5 /* 16 Blue Ambition.mp3 */,
+			);
+			path = music;
+			sourceTree = "<group>";
+		};
+		5784F80A22355B51002DE1F8 = {
+			isa = PBXGroup;
+			children = (
+				577F9C5D223A9A2C00965DF4 /* music */,
 				5784F81522355B51002DE1F8 /* 2019_ios_hw3 */,
 				5784F82A22355B54002DE1F8 /* 2019_ios_hw3Tests */,
 				5784F83522355B54002DE1F8 /* 2019_ios_hw3UITests */,
