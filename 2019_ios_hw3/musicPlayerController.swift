@@ -11,7 +11,7 @@ import AVFoundation
 
 class musicPlayerController: UITableViewController {
     
-    let song_name = ["01 Code Blue", "02 Groove Shadow", "03 Confusion Beats", "04 Cutting Volition", "05 Noiseless Period", "06 Exguisite Line", "07 Profound Undulation", "08 Turn Over", "09 Liquid Loops", "10 Player","11 Misty D.P.S.", "12 Hold On", "13 Modulation", "14 Transparency", "15 Future Colors", "16 Blue Ambition"]
+    let songName = ["01 Code Blue", "02 Groove Shadow", "03 Confusion Beats", "04 Cutting Volition", "05 Noiseless Period", "06 Exguisite Line", "07 Profound Undulation", "08 Turn Over", "09 Liquid Loops", "10 Player","11 Misty D.P.S.", "12 Hold On", "13 Modulation", "14 Transparency", "15 Future Colors", "16 Blue Ambition"]
     var audioPlayer: AVAudioPlayer!
     
     override func viewDidLoad() {
@@ -19,20 +19,19 @@ class musicPlayerController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return song_name.count
+        return songName.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         // Configure the cell...
-        cell.textLabel?.text = song_name[indexPath.row]
+        cell.textLabel?.text = songName[indexPath.row]
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let url = Bundle.main.url(forResource: song_name[indexPath.row], withExtension: "mp3")
-        
+        let url = Bundle.main.url(forResource: songName[indexPath.row], withExtension: "mp3")
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: url!)
             audioPlayer.prepareToPlay()
