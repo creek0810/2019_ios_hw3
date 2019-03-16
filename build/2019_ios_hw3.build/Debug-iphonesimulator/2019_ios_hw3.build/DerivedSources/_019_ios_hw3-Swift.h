@@ -197,31 +197,13 @@ SWIFT_CLASS("_TtC12_019_ios_hw311AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
+@class UITableView;
+@class UITableViewCell;
 @class NSBundle;
 @class NSCoder;
 
-SWIFT_CLASS("_TtC12_019_ios_hw321DeatailViewController")
-@interface DeatailViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified categoryImageView;
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-
-SWIFT_CLASS("_TtC12_019_ios_hw314ViewController")
-@interface ViewController : UIViewController
-- (void)viewDidLoad;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class UITableView;
-@class UITableViewCell;
-
-SWIFT_CLASS("_TtC12_019_ios_hw321myTableViewController")
-@interface myTableViewController : UITableViewController
+SWIFT_CLASS("_TtC12_019_ios_hw321musicPlayerController")
+@interface musicPlayerController : UITableViewController
 - (void)viewDidLoad;
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
 - (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
@@ -231,13 +213,23 @@ SWIFT_CLASS("_TtC12_019_ios_hw321myTableViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
+
+SWIFT_CLASS("_TtC12_019_ios_hw320picDeatailController")
+@interface picDeatailController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified detailImageView;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UICollectionView;
 @class UICollectionViewCell;
 @class UIStoryboardSegue;
 @class UICollectionViewLayout;
 
-SWIFT_CLASS("_TtC12_019_ios_hw311pic_gallery")
-@interface pic_gallery : UICollectionViewController
+SWIFT_CLASS("_TtC12_019_ios_hw320picGalleryController")
+@interface picGalleryController : UICollectionViewController
 - (void)viewDidLoad;
 - (NSInteger)numberOfSectionsInCollectionView:(UICollectionView * _Nonnull)collectionView SWIFT_WARN_UNUSED_RESULT;
 - (NSInteger)collectionView:(UICollectionView * _Nonnull)collectionView numberOfItemsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
