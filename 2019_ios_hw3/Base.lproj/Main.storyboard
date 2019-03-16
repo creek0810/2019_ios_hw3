@@ -50,6 +50,9 @@
                         <viewLayoutGuide key="safeArea" id="dtw-Ng-z4x"/>
                     </view>
                     <navigationItem key="navigationItem" title="原聲帶" id="iPm-V3-1WO"/>
+                    <connections>
+                        <segue destination="5zQ-xE-65z" kind="custom" identifier="stop" id="Z9k-AP-jBk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wfq-3c-EG7" sceneMemberID="firstResponder"/>
             </objects>
@@ -210,14 +213,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0Ff-RV-h8a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2112.8000000000002" y="966.56671664167925"/>
+            <point key="canvasLocation" x="2028" y="967"/>
         </scene>
         <!--Music Player Controller-->
         <scene sceneID="7Wy-hh-0Cy">
             <objects>
                 <tableViewController id="5zQ-xE-65z" customClass="musicPlayerController" customModule="_019_ios_hw3" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="O3D-pd-CdI">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="388"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
@@ -317,4 +320,7 @@
         <image name="album_pic" width="480" height="479"/>
         <image name="play_btn" width="16" height="16"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="Z9k-AP-jBk"/>
+    </inferredMetricsTieBreakers>
 </document>

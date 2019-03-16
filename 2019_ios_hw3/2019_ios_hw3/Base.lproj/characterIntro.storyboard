@@ -369,10 +369,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sRu-Xb-vvW">
-                                <rect key="frame" x="37" y="327" width="300" height="276"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RXC-HT-tPe">
+                                <rect key="frame" x="0.0" y="491" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_2" translatesAutoresizingMaskIntoConstraints="NO" id="IkL-55-Td7">
+                                        <rect key="frame" x="-12" y="-23" width="157" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Exa-Gv-Aqq">
+                                        <rect key="frame" x="137" y="-23" width="246" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="sRu-Xb-vvW">
+                                <rect key="frame" x="37" y="316" width="300" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">整形外科醫生；急救中心醫生；飛行醫生候補生；實習醫生。
 典型的鄉下長男，在鄉親的期待下苦讀多年，總算來到了翔北急救中心。艱辛的研修生活，加上週遭高規格的要求，經常壓得他喘不過氣。個性膽小卻又愛面子，從不輕易在人前示弱。但由於在四人中能力較差，因此由一開始一直沒有坐上直昇機的機會，也因此對同期的藍澤等人有強烈自卑感，感到十分煩惱。
 第三季時與冴島遙同居並結婚</string>
@@ -427,10 +441,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h6V-hS-rCF">
-                                <rect key="frame" x="37" y="327" width="300" height="276"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vhj-pL-h1B">
+                                <rect key="frame" x="0.0" y="491" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_2" translatesAutoresizingMaskIntoConstraints="NO" id="Aef-iq-pu9">
+                                        <rect key="frame" x="-12" y="-23" width="157" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="M5G-Dv-s8S">
+                                        <rect key="frame" x="137" y="-23" width="246" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="h6V-hS-rCF">
+                                <rect key="frame" x="37" y="316" width="300" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">婦產科醫生；急救中心醫生；飛行醫生候補生；實習醫生。
 昭和54年9月27日出生，靠著雙親金援從私立醫大畢業，經過兩年實習後，為了成為空中救護醫師而進入翔北急救中心。個性積極好勝、極具企圖心，總認為其他人佔了她隨直升機出動的機會而感到厭煩不已。有時甚至會因為過度自信而表現出狂妄的態度，不過面對病患時卻擁有藍澤和白石所欠缺的熱血性情。
 第三季前曾到青南周產期醫療中心擔任婦產科醫生因三井醫生拜託回歸翔北急診中心擔任急診醫生。</string>
@@ -444,7 +472,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GzA-lz-3S1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3089" y="-368"/>
+            <point key="canvasLocation" x="3088.8000000000002" y="-368.36581709145429"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ypN-4h-0ZM">
@@ -485,10 +513,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TOu-2m-Vtj">
-                                <rect key="frame" x="37" y="327" width="300" height="276"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dpO-8h-4d9">
+                                <rect key="frame" x="0.0" y="491" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_2" translatesAutoresizingMaskIntoConstraints="NO" id="UuD-MN-rPC">
+                                        <rect key="frame" x="-12" y="-23" width="157" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="91o-Ox-e6G">
+                                        <rect key="frame" x="137" y="-23" width="246" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="TOu-2m-Vtj">
+                                <rect key="frame" x="37" y="316" width="300" height="315"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">腦外科醫生；急救中心醫生；飛行醫生候補生；實習醫生。
 在地區醫院急診部門累積了兩年經驗後，為了成為空中救護醫師而來到翔北急救中心。醫學知識豐富又冷靜，雖然年紀輕，卻對自己充滿信心。一心只想追求醫術上的精進，認為面對急重症患者是磨練技術的好機會，即使非值班日也留在醫院，等待病患出現。過於偏激的態度常令旁人對他產生誤解，其實背後卻有不為人知的原因，父母在幼時離婚、自殺，童年由祖母所撫養，因此幾乎沒有和父母間的回憶。
 第二季結尾時轉為翔北腦外科醫生，於第三季第一集尾回歸到翔北急診室成為急診中心指導醫生</string>
@@ -543,10 +585,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tyE-jl-cZj">
-                                <rect key="frame" x="37" y="327" width="300" height="276"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Zkk-HZ-ajL">
+                                <rect key="frame" x="0.0" y="491" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_2" translatesAutoresizingMaskIntoConstraints="NO" id="n6x-zn-WXE">
+                                        <rect key="frame" x="-12" y="-23" width="157" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Tlw-CW-WFS">
+                                        <rect key="frame" x="137" y="-23" width="246" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="tyE-jl-cZj">
+                                <rect key="frame" x="37" y="316" width="298" height="287"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">急救中心組長；急救中心醫生；飛行醫生候補生；實習醫生。
 為了將空中救護的相關知識帶回地方的急診中心而來到翔北急救中心。雖然擁有成為優秀醫師的才能，但由於個性不擅競爭、遇事又害怕失敗，所以從來不曾拼命努力過，不僅常處於被動狀態，甚至在關鍵時刻卻步。然而在周遭醫護人員的影響下，讓她開始認真思考醫生的責任所在，以及自己真正想要的人生方向。
 由於自己的判斷失誤，導致黑田醫生手截肢，因此一直非常自責。
@@ -561,7 +617,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gMg-Xb-Vfr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3089" y="-1050"/>
+            <point key="canvasLocation" x="3088.8000000000002" y="-1050.224887556222"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="nkd-RF-2Gk">
@@ -602,10 +658,24 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="85V-wy-slE">
-                                <rect key="frame" x="37" y="327" width="300" height="276"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YUF-uK-Id7">
+                                <rect key="frame" x="0.0" y="491" width="375" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_2" translatesAutoresizingMaskIntoConstraints="NO" id="9su-jd-z1H">
+                                        <rect key="frame" x="-12" y="-23" width="157" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" alpha="0.34999999403953552" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="5gO-S3-FYk">
+                                        <rect key="frame" x="137" y="-23" width="246" height="151"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="85V-wy-slE">
+                                <rect key="frame" x="37" y="316" width="300" height="276"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">急救中心護士；飛行護士。
 最年輕的飛行護士，眾護士中有卓越的技術並具備醫生水平的知識。出生於醫生世家，年紀雖輕，在醫療現場卻能沉穩展現實力，工作態度比誰都認真。認為每年來這邊的研修醫師，都是些有錢人家的公子千金，所以不僅態度嚴厲，甚至還有點瞧不起他們。
 第三季時與藤川一男同居並結婚。</string>
@@ -643,6 +713,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="background" width="608" height="399"/>
+        <image name="background_2" width="13" height="396"/>
         <image name="helicopter" width="750" height="750"/>
         <image name="person_icon" width="16" height="16"/>
         <image name="冴島遙_1" width="960" height="600"/>

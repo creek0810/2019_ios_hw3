@@ -12,6 +12,7 @@ import AVFoundation
 class musicPlayerController: UITableViewController {
     
     let songName = ["01 Code Blue", "02 Groove Shadow", "03 Confusion Beats", "04 Cutting Volition", "05 Noiseless Period", "06 Exguisite Line", "07 Profound Undulation", "08 Turn Over", "09 Liquid Loops", "10 Player","11 Misty D.P.S.", "12 Hold On", "13 Modulation", "14 Transparency", "15 Future Colors", "16 Blue Ambition"]
+    var curSong = -1
     var audioPlayer: AVAudioPlayer!
     
     override func viewDidLoad() {
@@ -31,14 +32,20 @@ class musicPlayerController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let url = Bundle.main.url(forResource: songName[indexPath.row], withExtension: "mp3")
-        do {
-            audioPlayer = try AVAudioPlayer(contentsOf: url!)
-            audioPlayer.prepareToPlay()
-        } catch {
-            print("Error:", error.localizedDescription)
+        if(curSong == indexPath.row && audioPlayer.isPlaying == true){
+            audioPlayer.stop()
+        }else{
+            let url = Bundle.main.url(forResource: songName[indexPath.row], withExtension: "mp3")
+            curSong = indexPath.row
+            do {
+                audioPlayer = try AVAudioPlayer(contentsOf: url!)
+                audioPlayer.prepareToPlay()
+            } catch {
+                print("Error:", error.localizedDescription)
+            }
+            audioPlayer.play()
         }
-        audioPlayer.play()
+       
     }
 
 }
